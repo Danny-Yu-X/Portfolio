@@ -67,7 +67,7 @@ a:hover {
     cursor: default;
 }
 
-/*Hamburger Menu*/
+/*==================Hamburger Menu=====================*/
 
 #hamburger-nav {
     display: none;
@@ -90,7 +90,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: white;
     /*make menu turn into x when clicked*/
     transition: all 0.3 ease-in-out;
 }
