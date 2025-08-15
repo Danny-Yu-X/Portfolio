@@ -332,9 +332,15 @@ section {
     margin: auto 0;
 }
 
+
+/*====================== Experience Section ======================*/
+#experience {
+    position: relative;
+}
+
 /*========================Skills Section===================*/
 
-#experience {
+#skills {
     position: relative;
     
 }
