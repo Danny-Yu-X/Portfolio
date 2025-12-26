@@ -16,7 +16,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,10 +30,11 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
+                <li><a href="#desktop-nav" onclick="toggleMenu()">Profile</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Technical Skills</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
@@ -43,9 +44,10 @@
             <img src="./assets/dannyYuPic.jpg" alt="Danny Yu profile picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
+            <!-- <p class="section__text__p1">Hello, I'm</p> -->
             <h1 class="title">Danny Yu</h1>
-            <p class="section__text__p2">Computer Science & Statistics Student @ UC Davis</p>
+            <p class="section__text__p2">Bachelor of Science in Computer Science, Minor in Statistics</p>
+            <p class="section__text__p2">University of California, Davis</p>
             <div class="btn-container">
                 <!-- <button class="btn btn-color-2" onclick="window.open('./assets/Danny Yu - Resume.pdf')">
                     Download Résumé
@@ -85,12 +87,12 @@
                         <img src="./assets/education.png" alt="Education icon" class="icon">
                         <h3>University of California, Davis</h3>
                         <p>Bachelor of Science in Computer Science, Minor in Statistics</p>
-                        <p>Sep. 2023 - Present</p>
+                        <p>Sept. 2023 - June 2027</p>
                     </div>
                 </div>
                 <div class="text-container">
                     <p>
-                        As a 3rd year Computer Science Major and Statistics Minor student at the University of California, Davis, I have developed a strong foundation in software development through hands-on experience in programming, team collaboration, and innovative problem-solving. Beyond academics, I've pursued personal projects in front-end and full-stack web development and I am eager to bring my skills and passion for technology to work with industry menbers. These experiences have deepened my enthusiasm for software engineering and fueled my ambition to work in a professional environment to refine my technical expertise.
+                        As a 3rd year undergraduate college student majoring in Computer Science and minoring in Statistics at the University of California, Davis, I have developed a strong foundation in software development through hands-on experience in programming, team collaboration, and innovative problem-solving. Throughout my coursework, I have taken classes such as Artificial Intelligence and Machine Learning where I worked and collaborated with a variety of student engineers on AI/ML applied projects, as well as Full-Stack web applications. Beyond academics, I've pursued personal projects in Front-end and Full-Stack web development. I also have a strong passion for AI/ML and love researching modern technologies and new software in the dev community! I am eager to bring my skills and passion for technology to work with a collaborative team on software development.
                     </p>
                 </div>
             </div>
@@ -115,7 +117,7 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        As an AI & Robotics Intern at Integem, I worked at the intersection of robotics, drones, holographic augmented reality, and AI — developing both cutting-edge systems and the training resources to make them accessible to users. My projects included building autonomous robots and drones with Python and MQTT, creating holographic AR experiences, and implementing generative AI models using PyTorch. These initiatives supported over 50 users in adopting and applying emerging technologies.
+                        As an AI & Robotics Intern at Integem Inc., I worked at the intersection of robotics, drones, holographic augmented reality, and AI, developing both cutting-edge systems and the training resources to make them accessible to users. My projects included building autonomous robots and drones with Python and Visual Studio Code, creating holographic augmented reality experiences, and implementing generative AI models using PyTorch. These initiatives supported over 50 users in adopting and applying emerging technologies.
                     </p>
                 </div>
             </div>
@@ -124,19 +126,51 @@
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <h1 class="title">Technical Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img id="projectPic" src="./assets/productStore.png" alt="fullStackProject" class="project-img">
+                    <img id="projectPic" src="./assets/ml.jpg" alt="songLyricClassifier" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Song Lyric Classifier
+                </h2>
+                <h3 class="experience-sub-title2 project-title">Applied Machine Learning
+                </h3>
+                <div class="btn-container">
+                    <a href="https://github.com/Danny-Yu-X/Song-Lyric-Classifier" target="_blank">
+                     <button class="btn btn-color-2 project-btn" >
+                        GitHub
+                    </button>
+                    </a>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img id="projectPic" src="./assets/ai.jpg" alt="webAutoscaler" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Web Autoscaler
+                </h2>
+                <h3 class="experience-sub-title2 project-title">Applied Artificial Intelligence
+                </h3>
+                <div class="btn-container">
+                    <a href="https://github.com/Danny-Yu-X/Web-Autoscaler" target="_blank">
+                     <button class="btn btn-color-2 project-btn" >
+                        GitHub
+                    </button>
+                    </a>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img id="projectPic" src ="./assets/productStore.png" alt="productStore" class="project-img">
                 </div>
                 <h2 class="experience-sub-title project-title">Product Store
                 </h2>
-                <h3 class="experience-sub-title2 project-title">Full Stack Web Application
+                <h3 class="experience-sub-title2 project-title">Full-Stack Web Application
                 </h3>
                 <div class="btn-container">
-                    <a href="https://github.com/Danny-Yu-X/ProductStore-FullStackProject" target="_blank">
+                    <a href="https://github.com/Danny-Yu-X/ProductStore-Web-App" target="_blank">
                      <button class="btn btn-color-2 project-btn" >
                         GitHub
                     </button>
@@ -149,38 +183,63 @@
                 </div>
                 <h2 class="experience-sub-title project-title">Testimonial Grid
                 </h2>
-                <h3 class="experience-sub-title2 project-title">Front-end Web Application
+                <h3 class="experience-sub-title2 project-title">Front-End Web Application
                 </h3>
                 <div class="btn-container">
-                    <a href="https://github.com/Danny-Yu-X/testimonial-grid-frontend-mentor-project" target="_blank">
+                    <a href="https://github.com/Danny-Yu-X/TestimonialGrid-Front-end-Project" target="_blank">
                      <button class="btn btn-color-2 project-btn" >
                         GitHub
                     </button>
                     </a>
-                    <a href="https://danny-yu-x.github.io/testimonial-grid-frontend-mentor-project/" target="_blank">
+                </div>
+            </div>
+            </div>
+        </div>
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img id="projectPic" src="./assets/pricingCardPic.png" alt="priceCard" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Price Card
+                </h2>
+                <h3 class="experience-sub-title2 project-title">Front-End Web Application
+                </h3>
+                <div class="btn-container">
+                    <a href="https://github.com/Danny-Yu-X/PriceCard-Front-end-Project" target="_blank">
                      <button class="btn btn-color-2 project-btn" >
-                        Live Demo
+                        GitHub
                     </button>
                     </a>
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img id="projectPic" src ="./assets/pricingCardPic.png" alt="priceCard" class="project-img">
+                    <img id="projectPic" src="./assets/aggieSpace.png" alt="testimonialGrid" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Price Card
+                <h2 class="experience-sub-title project-title">AggieSpace
                 </h2>
-                <h3 class="experience-sub-title2 project-title">Front-end Web Application
+                <h3 class="experience-sub-title2 project-title">Mobile Application
                 </h3>
                 <div class="btn-container">
-                    <a href="https://github.com/Danny-Yu-X/pricing-card-frontend-mentor-project" target="_blank">
+                    <a href="https://github.com/Danny-Yu-X/AggieSpace-Mobile-App" target="_blank">
                      <button class="btn btn-color-2 project-btn" >
                         GitHub
                     </button>
                     </a>
-                    <a href="https://danny-yu-x.github.io/pricing-card-frontend-mentor-project/" target="_blank">
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img id="projectPic" src ="./assets/histogram1.jpeg" alt="covertTimingChannel" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Covert Channel
+                </h2>
+                <h3 class="experience-sub-title2 project-title">Statistical Modeling Application
+                </h3>
+                <div class="btn-container">
+                    <a href="https://github.com/Danny-Yu-X/Covert-Timing-Channel-Project" target="_blank">
                      <button class="btn btn-color-2 project-btn" >
-                        Live Demo
+                        GitHub
                     </button>
                     </a>
                 </div>
@@ -189,7 +248,7 @@
                 <div class="article-container">
                     <img id="projectPic" src="./assets/blackJackGamePic.png" alt="blackJackGame" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Blackjack Game
+                <h2 class="experience-sub-title project-title">Blackjack
                 </h2>
                 <h3 class="experience-sub-title2 project-title">Simulation Game
                 </h3>
@@ -222,19 +281,37 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>C/C++</h3>
+                                <h3>HTML</h3>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>HTML/CSS</h3>
+                                <h3>CSS</h3>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                            </div>
+                        </article>
+                      <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>RISC-V Assembly</h3>
                             </div>
                         </article>
                         <!-- <article>
@@ -244,6 +321,71 @@
                                 <p>Intermediate</p>
                             </div>
                         </article> -->
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developer Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>VS Code</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>GitHub</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Docker</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>PyCharm</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Postman</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Jira</h3>
+                            </div>
+                        </article>
+                       <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Miro</h3>
+                            </div>
+                        </article>
+                       <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="details-container">
@@ -271,41 +413,6 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Chakra UI</h3>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Developer Tools</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>VS Code</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>GitHub</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Docker</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>PyCharm</h3>
-                            </div>
-                        </article>
-                                <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>MongoDB</h3>
                             </div>
                         </article>
                     </div>
@@ -340,7 +447,31 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Torch</h3>
+                                <h3>PyTorch</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>TensorFlow</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Scikit-learn</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Keras</h3>
+                            </div>
+                        </article>
+                       <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SpaCy</h3>
                             </div>
                         </article>
                     </div>
@@ -376,12 +507,12 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2025 Danny Yu. All Rights Reserved.</p>
+        <p>Copyright &#169; 2026 Danny Yu. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
